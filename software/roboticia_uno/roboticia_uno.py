@@ -12,7 +12,7 @@ from .primitives.postures import (BasePosture, RestPosture,
                                   SafePowerUp)
 
 
-class PoppyErgoJr(AbstractPoppyCreature):
+class RoboticiaUno(AbstractPoppyCreature):
     @classmethod
     def setup(cls, robot):
         robot._primitive_manager._filter = partial(sum, axis=0)
